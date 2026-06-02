@@ -1,0 +1,15 @@
+{
+  "name": "klad-nodegui",
+  "version": "1.0.0",
+  "description": "Интерактивное окно для поиска клада на NodeGui",
+  "main": "index.js",
+  "scripts": {
+    "start": "qode index.js",
+    "build": "qode --inspect index.js"
+  },
+  "dependencies": {
+    "@nodegui/nodegui": "^0.61.0",
+    "@nodegui/qode": "^24.12.0-rc18",
+    "jimp": "^1.6.0"
+  }
+}
